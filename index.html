@@ -1,142 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Churros Recipe</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #fff3e0, #ffe0b2);
-            margin: 0;
-            padding: 0;
-        }
+<meta charset="UTF-8">
+<title>Churros Recipe</title>
 
-        header {
-            background-color: #ff9800;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: linear-gradient(135deg, #ffcc80, #ff8a65);
+    color: #333;
+}
 
-        .container {
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-        }
+header {
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
 
-        h2 {
-            color: #e65100;
-            border-bottom: 2px solid #ffcc80;
-            padding-bottom: 5px;
-        }
+h1 {
+    font-size: 40px;
+}
 
-        ul, ol {
-            background: white;
-            padding: 15px;
-            border-radius: 10px;
-        }
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
 
-        p {
-            background: white;
-            padding: 10px;
-            border-radius: 10px;
-        }
+.card {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
 
-        .card {
-            background: #ffffff;
-            padding: 15px;
-            border-radius: 15px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
+.card:hover {
+    transform: scale(1.03);
+}
 
-        footer {
-            text-align: center;
-            padding: 15px;
-            background: #ff9800;
-            color: white;
-            margin-top: 20px;
-        }
-    </style>
+button {
+    background: #ff5722;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e64a19;
+}
+
+.like-box {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+</style>
+
 </head>
+
 <body>
 
 <header>
-    <h1>🍩 Churros Recipe</h1>
+    <h1>🍩 Churros</h1>
     <p>Delicious Spanish Dessert</p>
 </header>
 
 <div class="container">
 
-    <div class="card">
-        <h2>What are churros?</h2>
-        <p>
-            Churros are a sweet fried dessert from Spain. They are crispy on the outside 
-            and soft on the inside. They are usually covered with sugar and sometimes cinnamon.
-        </p>
-    </div>
+<div class="card">
+<h2>What are churros?</h2>
+<p>Churros are a sweet fried dessert from Spain. They are crispy outside and soft inside.</p>
+</div>
 
-    <div class="card">
-        <h2>Ingredients</h2>
-        <ul>
-            <li>1 cup water</li>
-            <li>2 tablespoons sugar</li>
-            <li>1/2 teaspoon salt</li>
-            <li>2 tablespoons oil</li>
-            <li>1 cup flour</li>
-        </ul>
-    </div>
+<div class="card">
+<h2>Ingredients</h2>
+<ul>
+<li>1 cup water</li>
+<li>2 tablespoons sugar</li>
+<li>1/2 teaspoon salt</li>
+<li>1 cup flour</li>
+</ul>
+</div>
 
-    <div class="card">
-        <h2>Instructions</h2>
-        <ol>
-            <li>Boil water, sugar, salt, and oil</li>
-            <li>Add flour and mix until dough forms</li>
-            <li>Let the dough cool</li>
-            <li>Put dough into a piping bag</li>
-            <li>Fry in hot oil until golden brown</li>
-            <li>Roll in sugar</li>
-        </ol>
-    </div>
+<div class="card">
+<h2>Instructions</h2>
+<ol>
+<li>Boil water with sugar</li>
+<li>Add flour and mix</li>
+<li>Let it cool</li>
+<li>Fry in oil</li>
+<li>Add sugar</li>
+</ol>
+</div>
 
-    <div class="card">
-        <h2>History of Churros</h2>
-        <p>
-            Churros are a traditional dessert from Spain. Many people believe they were invented 
-            by Spanish shepherds who lived in the mountains. They needed simple food, so they made 
-            dough from flour and water and fried it.
-        </p>
-        <p>
-            Another theory says churros were inspired by a Chinese dish called "youtiao". 
-            Portuguese sailors brought this idea to Europe.
-        </p>
-    </div>
+<div class="card">
+<h2>History</h2>
+<p>Churros may have been invented by Spanish shepherds or inspired by Chinese food.</p>
+</div>
 
-    <div class="card">
-        <h2>About Spain</h2>
-        <p>
-            Spain is a country in Europe known for its rich culture, delicious food, and warm climate. 
-            The capital city is Madrid.
-        </p>
-        <p>
-            Spanish cuisine includes famous dishes like paella, tapas, and churros. 
-            People often eat churros for breakfast with hot chocolate.
-        </p>
-    </div>
+<div class="card">
+<h2>About Spain</h2>
+<p>Spain is a beautiful country in Europe known for food, culture, and warm weather.</p>
+</div>
 
-    <div class="card">
-        <h2>Why People Love Churros</h2>
-        <p>
-            Churros are loved all over the world because they are simple, affordable, and very tasty. 
-            They are crispy outside and soft inside.
-        </p>
-    </div>
+<div class="card like-box">
+<h2>Did you like this website?</h2>
+
+<button onclick="like()">👍 Like</button>
+
+<p id="likes">Likes: 0</p>
+<p id="msg"></p>
+
+</div>
 
 </div>
 
 <footer>
-    <p>Made by student 😄</p>
+Made by student 😎
 </footer>
+
+<script>
+let likes = localStorage.getItem("likes") || 0;
+let liked = localStorage.getItem("liked");
+
+document.getElementById("likes").innerText = "Likes: " + likes;
+
+function like() {
+    if (liked) {
+        document.getElementById("msg").innerText = "You already liked!";
+        return;
+    }
+
+    likes++;
+    localStorage.setItem("likes", likes);
+    localStorage.setItem("liked", true);
+
+    document.getElementById("likes").innerText = "Likes: " + likes;
+    document.getElementById("msg").innerText = "Thanks for your like! ❤️";
+}
+</script>
 
 </body>
 </html>
